@@ -1,0 +1,18 @@
+.git
+.gitignore
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# Local/runtime/generated assets (mount at runtime if needed)
+models/
+voice_cloning/input/
+voice_cloning/outputs/
+voice_cloning/voice_profiles/
+memory/*/faiss.index
+
+# Optional docs/notebooks
+*.ipynb
