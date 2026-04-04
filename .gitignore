@@ -1,0 +1,38 @@
+# Environments
+.env
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Models and ML Weights
+models/
+voice_cloning/model/
+*.gguf
+*.pt
+*.pth
+*.bin
+
+# Large audio/media files
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.msi
+
+# User specific data / Outputs
+memory/*/memories.json
+memory/*/faiss.index
+voice_cloning/outputs/
+voice_cloning/output/
+voice_cloning/input/
+
+# OS / Editor Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
